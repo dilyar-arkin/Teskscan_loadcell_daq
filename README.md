@@ -71,7 +71,12 @@ In the `loop()`, the code continuously reads data from the sensors and sends it 
 - Ensure the Ethernet shield is properly connected and the Ethernet cable is functional.
 - Verify that the Arduino has the correct static IP and that the computer is listening on the correct port for incoming UDP packets.
 
+## Troubleshooting
+- Ensure the Ethernet shield is properly connected and the Ethernet cable is functional.
+- Verify that the Arduino has the correct static IP and that the computer is listening on the correct port for incoming UDP packets.
+
 ## License
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+This project is licensed under an [Open Source License](https://opensource.org/licenses). Feel free to modify and distribute the code as per the terms of this open-source license.
+
 
 
