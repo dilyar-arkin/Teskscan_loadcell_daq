@@ -65,5 +65,13 @@ In the `loop()`, the code continuously reads data from the sensors and sends it 
 
 ### Network Communication
 - The Arduino will send a UDP packet to the specified computer IP with the sensor data in the form of a JSON-like array.
-- Example of transmitted data:
+- Example of transmitted data: [1023, 512, 356, 987]
+  
+## Troubleshooting
+- Ensure the Ethernet shield is properly connected and the Ethernet cable is functional.
+- Verify that the Arduino has the correct static IP and that the computer is listening on the correct port for incoming UDP packets.
+
+## License
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+
 
